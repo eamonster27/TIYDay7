@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Droid Sans Mongo', monospace;
+  font-family: 'Droid Sans Mono', monospace;
 }
 
 .background {
@@ -50,6 +50,7 @@ fieldset {
   padding: 2rem;
   border: 2px solid #00C171;
   border-radius: 0.1rem;
+  border-style: dashed;
 }
 
 legend {
@@ -77,6 +78,7 @@ input[type="submit"] {
   color: #000000;
   font-size: 1.3rem;
   cursor: pointer;
+  
 }
 
 .button {
@@ -92,9 +94,9 @@ input[type="file"] {
   padding: 0.8rem 0;
 }
 
-input[type] {
+input[type="text"] {
   width: 100%;
-  padding: 0;
+  padding: 10px;
 }
 
 .intro {
